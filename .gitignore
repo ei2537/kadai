@@ -1,3 +1,3 @@
-*
-!*.c
-!.gitignore
+a.out
+*.sh
+README.md

@@ -1,0 +1,10 @@
+#include <stdio.h>
+#define endl "\n"
+#define ll long long
+#define IMAX __INT_MAX__
+#define LLMAX __LONG_LONG_MAX__
+
+int main () {
+    
+    return 0;
+}
