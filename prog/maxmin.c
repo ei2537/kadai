@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <hamako.h>
+#include "hamakou.h"
 
 int main () {
     int a,b,max,min;
