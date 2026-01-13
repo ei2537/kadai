@@ -2,6 +2,6 @@
 #include "hamakou.h"
 
 int main () {
-
+    
     return 0;
 }
