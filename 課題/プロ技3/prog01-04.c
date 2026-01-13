@@ -3,6 +3,7 @@
 
 int main () {
     int a;
+    a = getint("input a:");
     if(a%4!=0){
         printf("平年\n");
     }else if(a%100!=0){

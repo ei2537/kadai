@@ -22,6 +22,6 @@ int main () {
     }else{
         mid = c;
     }
-    printf("max = %d, mid = %d, min = %d",max,mid,min);
+    printf("max = %d, mid = %d, min = %d\n",max,mid,min);
     return 0;
 }

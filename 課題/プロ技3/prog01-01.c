@@ -18,6 +18,6 @@ int main () {
     }else if(c<min){
         min = c;
     }
-    printf("max = %d, min = %d",max,min);
+    printf("max = %d, min = %d\n",max,min);
     return 0;
 }

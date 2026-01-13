@@ -24,6 +24,6 @@ int main () {
     }else if(d<min){
         min = d;
     }
-    printf("max = %d, min = %d",max,min);
+    printf("max = %d, min = %d\n",max,min);
     return 0;
 }
