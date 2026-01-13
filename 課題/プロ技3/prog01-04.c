@@ -2,13 +2,13 @@
 #include "hamakou.h"
 
 int main () {
-    int a;
-    a = getint("input a:");
-    if(a%4!=0){
+    int year;
+    year = getint("input year:");
+    if(year%4!=0){
         printf("平年\n");
-    }else if(a%100!=0){
+    }else if(year%100!=0){
         printf("うるう年\n");
-    }else if(a%400!=0){
+    }else if(year%400!=0){
         printf("平年\n");
     }else{
         printf("うるう年\n");
