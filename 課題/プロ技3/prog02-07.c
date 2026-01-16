@@ -6,8 +6,8 @@ int main () {
     int n;
     x = getfloat("input x:");
     n = getint("input n:");
-    float ans=x;
-    int i=2;
+    float ans=1;
+    int i=1;
     while(i<=n){
         ans = ans*x;
         i++;

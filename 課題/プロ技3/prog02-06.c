@@ -4,7 +4,7 @@
 int main () {
     int n,ans=1;
     n = getint("input n:");
-    int i=1;
+    int i=2;
     while(i<=n){
         ans = ans*i;
         i++;

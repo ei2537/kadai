@@ -8,11 +8,10 @@ int main () {
     while(i<=n){
         if(i%2==0){
             gsum=gsum+i;
-            i++;
         }else{
             ksum=ksum+i;
-            i++;
         }
+        i++;
     }
     printf("偶数の和 = %d\n奇数の和 = %d\n",gsum,ksum);
     return 0;

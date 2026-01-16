@@ -2,7 +2,7 @@
 #include "hamakou.h"
 
 int main () {
-    float max,min,sum,avg,a[100];
+    float max,min,sum=0,avg,a[100];
     int n,i;
     n = getint("Input n:");
     if(n<=0||n>100){
@@ -12,6 +12,10 @@ int main () {
         while(i<n){
             printf("a[%d] =",i);
             a[i] = getfloat("");
+            i++;
+        }
+        i=0;
+        while(i<n){
             sum = sum + a[i];
             i++;
         }
@@ -21,8 +25,7 @@ int main () {
         while(i<n){
             if(a[i]>max){
                 max = a[i];
-            }
-            if(a[i]<min){
+            }else if(a[i]<min){
                 min = a[i];
             }
             i++;
@@ -30,6 +33,6 @@ int main () {
         printf("max = %g, min = %g\n",max,min);
         avg = sum/n;
         printf("sum = %g, avg = %g\n",sum,avg);
-    return 0;
     }
+    return 0;
 }
